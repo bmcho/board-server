@@ -45,7 +45,7 @@
 ---
 # 이슈별 실습 내용
 
-![이슈별 실습 내용.drawio]([%C0%CC%BD%B4%BA%B0%20%BD%C7%BD%C0%20%B3%BB%BF%EB.drawio.png](https://github.com/bmcho/board-server/blob/main/%EC%9D%B4%EC%8A%88%EB%B3%84%20%EC%8B%A4%EC%8A%B5%20%EB%82%B4%EC%9A%A9.drawio.png))
+![이슈별 실습 내용 drawio](https://github.com/ccommit-dev/Board-Server/assets/77635521/9434ac9e-3e43-47f7-a2ad-6c560657e199)
 ---
 # ERD(Entity Relationship Diagram)
 ![image](https://github.com/ccommit-dev/Board-Server/assets/77635521/7fb0ec6b-1317-4911-9315-067244a8dd9e)
@@ -59,6 +59,6 @@
 
 ---
 # 아키텍처(요약)
-![게시판 서버 아키텍처.drawio](%B0%D4%BD%C3%C6%C7%20%BC%AD%B9%F6%20%BE%C6%C5%B0%C5%D8%C3%B3.drawio.png)
+![게시판 서버 아키텍처 drawio](https://github.com/ccommit-dev/Board-Server/assets/77635521/62e053a4-51a4-4387-90c4-f5e450441f2f)
 
 
