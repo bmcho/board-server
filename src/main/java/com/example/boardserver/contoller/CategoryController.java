@@ -10,10 +10,10 @@ import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+@Log4j2
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/categories")
-@Log4j2
 public class CategoryController {
 
     private final CategoryService categoryService;
