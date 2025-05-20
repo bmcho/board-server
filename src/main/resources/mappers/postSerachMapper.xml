@@ -5,7 +5,7 @@
 
 <mapper namespace="com.example.boardserver.mapper.PostSearchMapper">
 
-    <select id="selectPosts" resultType="com.example.boardserver.dto.request.PostSearchRequest">
+    <select id="selectPosts" resultType="com.example.boardserver.dto.PostDTO">
         SELECT `id`,
         `name`,
         `isAdmin`,

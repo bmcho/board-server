@@ -1,5 +1,6 @@
 package com.example.boardserver.dto.request;
 
+import com.example.boardserver.dto.SortStatus;
 import lombok.*;
 
 @Builder

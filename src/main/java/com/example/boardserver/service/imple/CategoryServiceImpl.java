@@ -14,7 +14,6 @@ public class CategoryServiceImpl implements CategoryService {
 
     private final CategoryMapper categoryMapper;
 
-
     @Override
     public void register(String accountId, CategoryDTO categoryDTO) {
         if (accountId != null) {

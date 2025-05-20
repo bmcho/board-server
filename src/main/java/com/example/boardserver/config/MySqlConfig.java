@@ -19,11 +19,9 @@ public class MySqlConfig {
         final SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource);
 
-        Resource mapperResource = new PathMatchingResourcePatternResolver().getResource("classpath:mappers/*.xml");
-        sqlSessionFactoryBean.setMapperLocations(mapperResource);
-
-        Resource configResource = new PathMatchingResourcePatternResolver().getResource("classpath:mybatis-config");
-        sqlSessionFactoryBean.setConfigLocation(configResource);
+        PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+        sqlSessionFactoryBean.setMapperLocations(resolver.getResources("classpath:mappers/*.xml"));
+        sqlSessionFactoryBean.setConfigLocation(resolver.getResource("classpath:mybatis-config.xml"));
 
         return sqlSessionFactoryBean.getObject();
     }
