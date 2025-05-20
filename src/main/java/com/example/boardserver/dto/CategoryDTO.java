@@ -11,10 +11,6 @@ import lombok.ToString;
 @ToString
 public class CategoryDTO {
 
-    public enum SortStatus{
-        CATEGORIES, NEWEST, OLDEST
-    }
-
     private int id;
     private String name;
     private SortStatus sortStatus;
